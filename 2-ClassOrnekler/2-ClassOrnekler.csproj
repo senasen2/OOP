@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <Folder Include="Bilgisayarlar\" />
+    <Folder Include="CepTelefonlari\" />
+    <Folder Include="Emlak\" />
   </ItemGroup>
 
 </Project>
