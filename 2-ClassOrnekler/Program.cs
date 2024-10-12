@@ -1,8 +1,13 @@
-﻿namespace _2_ClassOrnekler
+﻿using _2_ClassOrnekler.Otomotiv;
+using _2_ClassOrnekler.Otomotiv.Otomobil;
+using _2_ClassOrnekler.Otomotiv.Ticariler.Kamyonlar;
+
+namespace _2_ClassOrnekler
 {
     internal class Program
     {
         //structlar stackte tutulurken, classlar heapte tutulur.
+       
         static void Main(string[] args)
         {
             #region Class Instance Alma
@@ -27,6 +32,18 @@
                 
             };
 
+            //enum içeren classlardan instance alma
+            Otomobil otomobil = new Otomobil();
+            otomobil.KasaTipi = KasaTipi.Sedan;
+            otomobil.YakitTipi = YakitTipi.Dizel;
+            otomobil.Cekis = Cekis.OndenCekis;
+            otomobil.Marka = "Mercedes";
+            otomobil.Model = "A200";
+
+            Kamyon kamyon = new Kamyon();
+            kamyon.UstYapi = UstYapi.AcıkKasa;
+            //Console.WriteLine(Enum.GetValues(typeof(KasaTipi)));
+            //Console.WriteLine(Enum.GetNames(typeof(KasaTipi)));
             #endregion
         }
     }
