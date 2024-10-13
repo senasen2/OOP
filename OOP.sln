@@ -5,7 +5,11 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-Giris", "1-Giris\1-Giris.csproj", "{25DA8069-71A7-429D-8FAD-35A1A2720819}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-ClassOrnekler", "2-ClassOrnekler\2-ClassOrnekler.csproj", "{AEC4EE10-3971-4CF8-8DB3-17CDDFF4A4E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-ClassOrnekler", "2-ClassOrnekler\2-ClassOrnekler.csproj", "{AEC4EE10-3971-4CF8-8DB3-17CDDFF4A4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-ClassLib", "3-ClassLib\3-ClassLib.csproj", "{C235430B-4310-4D3C-887A-863E52F98F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-LibraryKullanimi", "4-LibraryKullanimi\4-LibraryKullanimi.csproj", "{73048770-7CCD-40C1-9909-B71771B99089}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{AEC4EE10-3971-4CF8-8DB3-17CDDFF4A4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEC4EE10-3971-4CF8-8DB3-17CDDFF4A4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEC4EE10-3971-4CF8-8DB3-17CDDFF4A4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C235430B-4310-4D3C-887A-863E52F98F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C235430B-4310-4D3C-887A-863E52F98F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C235430B-4310-4D3C-887A-863E52F98F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C235430B-4310-4D3C-887A-863E52F98F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73048770-7CCD-40C1-9909-B71771B99089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73048770-7CCD-40C1-9909-B71771B99089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73048770-7CCD-40C1-9909-B71771B99089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73048770-7CCD-40C1-9909-B71771B99089}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
