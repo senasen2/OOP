@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace _3_ClassLib.Bilgisayarlar
 {
-    internal class SSD :BaseItem
+    public enum DiskTipi
+    {
+        HDD = 1,
+        SSD
+    }
+    public class HardDisk :BaseItem
     {
         public int Kapasite { get; set; }
+        public DiskTipi DisktTipi { get; set; }
     }
 }
