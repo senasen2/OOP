@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _3_ClassLib.Bilgisayarlar
 {
-    public class Bilgisayar :BaseItem
+    public class Bilgisayar 
     {
         public Anakart Anakart { get; set; }
         public Cpu Cpu { get; set; }
@@ -14,5 +14,23 @@ namespace _3_ClassLib.Bilgisayarlar
         public List<EkranKarti> EkranKartlari { get; set; }
         public List<HardDisk> Diskler { get; set; }
 
+
+        // Kurucu metod yada Yapici metod da denir. 
+        // Terminolojide constructor olarak gecer.
+        // Eger property'lere ilk deger atamasi yapilmiş ise
+        // Once property'ler e deger atanir sonra constructor calistirilir.
+        // Constructer'lar Class ismi ile ayni olmak zorundadir.
+        // Constructer 'lar geri donus tipi yoktur.
+
+        public Bilgisayar()
+        {
+            Cpu = new Cpu("Amd");
+            Ramlar = new List<Ram>() { new Ram { Fiyat = 5 }, new Ram { Fiyat = 5 } };
+            EkranKartlari = new List<EkranKarti>() { new EkranKarti { Fiyat = 10 } };
+            Diskler = new List<HardDisk>() { new HardDisk { Fiyat = 10 } };
+            Anakart = new Anakart();
+        }
     }
+
+
 }

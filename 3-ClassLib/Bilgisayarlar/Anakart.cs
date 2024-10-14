@@ -8,6 +8,9 @@ namespace _3_ClassLib.Bilgisayarlar
 {
     public class Anakart :BaseItem
     {
-
+        public Anakart() 
+        {
+            Marka = "ASUS";
+        }
     }
 }
