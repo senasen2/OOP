@@ -30,6 +30,28 @@ namespace _3_ClassLib.Bilgisayarlar
             Diskler = new List<HardDisk>() { new HardDisk { Fiyat = 10 } };
             Anakart = new Anakart();
         }
+
+        //public double FiyatHesapla()
+        //{
+        //    double toplamtutar = 0;
+        //    foreach (var item in Ramlar)
+        //    {
+        //        toplamtutar += item.Fiyat;
+        //    }
+        //    foreach (var item in Diskler)
+        //    {
+        //        toplamtutar += item.Fiyat;
+        //    }
+        //    foreach (var item in EkranKartlari)
+        //    {
+        //        toplamtutar += item.Fiyat;
+        //    }
+        //    toplamtutar += Anakart.Fiyat;
+        //    toplamtutar += Cpu.Fiyat;
+
+        //    return toplamtutar;
+
+        //}
     }
 
 

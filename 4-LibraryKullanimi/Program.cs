@@ -21,7 +21,7 @@ namespace _4_LibraryKullanimi
 
             //bilgisayar.Diskler.Add(new HardDisk { DisktTipi = DiskTipi.SSD , Marka = "Seagate"});
             //bilgisayar.EkranKartlari = new List<EkranKarti>();
-
+            Console.WriteLine(oyuncu.FiyatHesapla());
         }
     }
 }
